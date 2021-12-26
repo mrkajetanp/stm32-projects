@@ -10,10 +10,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -25,9 +25,9 @@
       "build/main.o",
       "src/main.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/src/main.c",
-    "output": "/home/kajetan/Development/blinky/build/main.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/src/main.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/main.o"
   },
   {
     "arguments": [
@@ -40,10 +40,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -55,9 +55,9 @@
       "build/stm32l4xx_it.o",
       "src/stm32l4xx_it.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/src/stm32l4xx_it.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_it.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/src/stm32l4xx_it.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_it.o"
   },
   {
     "arguments": [
@@ -70,10 +70,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -85,9 +85,9 @@
       "build/stm32l4xx_hal_msp.o",
       "src/stm32l4xx_hal_msp.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/src/stm32l4xx_hal_msp.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_msp.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/src/stm32l4xx_hal_msp.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_msp.o"
   },
   {
     "arguments": [
@@ -100,10 +100,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -113,11 +113,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_tim.lst",
       "-o",
       "build/stm32l4xx_hal_tim.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_tim.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_tim.o"
   },
   {
     "arguments": [
@@ -130,10 +130,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -143,11 +143,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_tim_ex.lst",
       "-o",
       "build/stm32l4xx_hal_tim_ex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_tim_ex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_tim_ex.o"
   },
   {
     "arguments": [
@@ -160,10 +160,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -173,11 +173,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_uart.lst",
       "-o",
       "build/stm32l4xx_hal_uart.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_uart.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_uart.o"
   },
   {
     "arguments": [
@@ -190,10 +190,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -203,11 +203,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_uart_ex.lst",
       "-o",
       "build/stm32l4xx_hal_uart_ex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_uart_ex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_uart_ex.o"
   },
   {
     "arguments": [
@@ -220,10 +220,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -233,11 +233,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal.lst",
       "-o",
       "build/stm32l4xx_hal.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal.o"
   },
   {
     "arguments": [
@@ -250,10 +250,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -263,11 +263,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_i2c.lst",
       "-o",
       "build/stm32l4xx_hal_i2c.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_i2c.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_i2c.o"
   },
   {
     "arguments": [
@@ -280,10 +280,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -293,11 +293,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_i2c_ex.lst",
       "-o",
       "build/stm32l4xx_hal_i2c_ex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_i2c_ex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_i2c_ex.o"
   },
   {
     "arguments": [
@@ -310,10 +310,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -323,11 +323,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_rcc.lst",
       "-o",
       "build/stm32l4xx_hal_rcc.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_rcc.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_rcc.o"
   },
   {
     "arguments": [
@@ -340,10 +340,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -353,11 +353,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_rcc_ex.lst",
       "-o",
       "build/stm32l4xx_hal_rcc_ex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_rcc_ex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_rcc_ex.o"
   },
   {
     "arguments": [
@@ -370,10 +370,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -383,11 +383,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_flash.lst",
       "-o",
       "build/stm32l4xx_hal_flash.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_flash.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_flash.o"
   },
   {
     "arguments": [
@@ -400,10 +400,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -413,11 +413,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_flash_ex.lst",
       "-o",
       "build/stm32l4xx_hal_flash_ex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_flash_ex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_flash_ex.o"
   },
   {
     "arguments": [
@@ -430,10 +430,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -443,11 +443,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_flash_ramfunc.lst",
       "-o",
       "build/stm32l4xx_hal_flash_ramfunc.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_flash_ramfunc.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_flash_ramfunc.o"
   },
   {
     "arguments": [
@@ -460,10 +460,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -473,11 +473,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_gpio.lst",
       "-o",
       "build/stm32l4xx_hal_gpio.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_gpio.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_gpio.o"
   },
   {
     "arguments": [
@@ -490,10 +490,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -503,11 +503,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_dma.lst",
       "-o",
       "build/stm32l4xx_hal_dma.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_dma.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_dma.o"
   },
   {
     "arguments": [
@@ -520,10 +520,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -533,11 +533,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_dma_ex.lst",
       "-o",
       "build/stm32l4xx_hal_dma_ex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_dma_ex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_dma_ex.o"
   },
   {
     "arguments": [
@@ -550,10 +550,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -563,11 +563,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_pwr.lst",
       "-o",
       "build/stm32l4xx_hal_pwr.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_pwr.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_pwr.o"
   },
   {
     "arguments": [
@@ -580,10 +580,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -593,11 +593,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_pwr_ex.lst",
       "-o",
       "build/stm32l4xx_hal_pwr_ex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_pwr_ex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_pwr_ex.o"
   },
   {
     "arguments": [
@@ -610,10 +610,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -623,11 +623,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_cortex.lst",
       "-o",
       "build/stm32l4xx_hal_cortex.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_cortex.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_cortex.o"
   },
   {
     "arguments": [
@@ -640,10 +640,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -653,11 +653,11 @@
       "-Wa,-a,-ad,-alms=build/stm32l4xx_hal_exti.lst",
       "-o",
       "build/stm32l4xx_hal_exti.o",
-      "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c"
+      "drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c",
-    "output": "/home/kajetan/Development/blinky/build/stm32l4xx_hal_exti.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/stm32l4xx_hal_exti.o"
   },
   {
     "arguments": [
@@ -670,10 +670,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -685,9 +685,9 @@
       "build/system_stm32l4xx.o",
       "src/system_stm32l4xx.c"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/src/system_stm32l4xx.c",
-    "output": "/home/kajetan/Development/blinky/build/system_stm32l4xx.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/src/system_stm32l4xx.c",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/system_stm32l4xx.o"
   },
   {
     "arguments": [
@@ -702,10 +702,10 @@
       "-DUSE_HAL_DRIVER",
       "-DSTM32L476xx",
       "-Iinclude",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc",
-      "-IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
-      "-IDrivers/CMSIS/Device/ST/STM32L4xx/Include",
-      "-IDrivers/CMSIS/Include",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc",
+      "-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+      "-Idrivers/CMSIS/Device/ST/STM32L4xx/Include",
+      "-Idrivers/CMSIS/Include",
       "-Og",
       "-Wall",
       "-fdata-sections",
@@ -716,8 +716,8 @@
       "build/startup_stm32l476xx.o",
       "startup_stm32l476xx.s"
     ],
-    "directory": "/home/kajetan/Development/blinky",
-    "file": "/home/kajetan/Development/blinky/startup_stm32l476xx.s",
-    "output": "/home/kajetan/Development/blinky/build/startup_stm32l476xx.o"
+    "directory": "/home/kajetan/Development/stm32-projects/blinky",
+    "file": "/home/kajetan/Development/stm32-projects/blinky/startup_stm32l476xx.s",
+    "output": "/home/kajetan/Development/stm32-projects/blinky/build/startup_stm32l476xx.o"
   }
 ]

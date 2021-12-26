@@ -39,25 +39,25 @@ C_SOURCES =  \
 src/main.c \
 src/stm32l4xx_it.c \
 src/stm32l4xx_hal_msp.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
+drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c \
 src/system_stm32l4xx.c  
 
 # ASM sources
@@ -116,10 +116,10 @@ AS_INCLUDES =
 # C includes
 C_INCLUDES =  \
 -Iinclude \
--IDrivers/STM32L4xx_HAL_Driver/Inc \
--IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy \
--IDrivers/CMSIS/Device/ST/STM32L4xx/Include \
--IDrivers/CMSIS/Include
+-Idrivers/STM32L4xx_HAL_Driver/Inc \
+-Idrivers/STM32L4xx_HAL_Driver/Inc/Legacy \
+-Idrivers/CMSIS/Device/ST/STM32L4xx/Include \
+-Idrivers/CMSIS/Include
 
 
 # compile gcc flags
