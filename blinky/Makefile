@@ -192,6 +192,6 @@ clean:
 -include $(wildcard $(BUILD_DIR)/*.d)
 
 install:
-	openocd -f board/st_nucleo_l4.cfg -c "program build/blinky.elf verify reset exit"
+	openocd -f board/st_nucleo_l4.cfg -c "program build/$(TARGET).elf verify reset exit"
 
 # *** EOF ***
